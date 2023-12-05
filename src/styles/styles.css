@@ -1,0 +1,167 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: url(fondo.png), #071b2c;
+    background: url(fondo.png),
+        -webkit-gradient(linear, right top, left top, from(rgb(150, 0, 0)), to(#52060c));
+    background: url(fondo.png),
+        linear-gradient(to left, #a08b8b, #7a4040);
+}
+
+body{
+    overflow-y: hidden;
+ }
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+}
+
+/*------------- Title --------------*/
+
+.Title {
+    text-align: center;
+    background: #D66D75;
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);
+    background: linear-gradient(to right, #E29587, #D66D75);
+    font-weight: bold;
+}
+
+/*------------- search --------------*/
+.search {
+    text-align: center;
+    background: #D66D75;
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);
+    background: linear-gradient(to right, #E29587, #D66D75);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 10px;
+    border: 20px;
+    padding: 10px;
+    background-color: orangered;
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e42636;
+    color: #f5f5f5;
+}
+
+.inputCity {
+    border-radius: 10px;
+    border: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+    margin-right: 10px;
+    color: black;
+    font-size: large;
+}
+
+.nameCity {
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.Today {
+    font-size: small;
+    border-radius: 50px;
+}
+
+/*------------- Container --------------*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*------------- weather info cards --------------*/
+
+.weatherInfo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.card {
+    border: solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 170px;
+    height: 190px;
+    font-size: larger;
+    background-color: white;
+}
+
+.spanCard {
+    color: orangered;
+}
+
+.data {
+    border: solid 1px;
+    border-radius: 50%;
+    font-family: "helvetica neue";
+    background-color: orangered;
+}
+
+/*------------- Forecast info cards --------------*/
+
+.forecastInfo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+}
+
+.date {
+    color: orangered;
+}
+
+/*------------- Image --------------*/
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*------------- Map --------------*/
+
+.mapcontainer {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.map {
+    padding: 10px;
+    height: 30vh;
+    width: 100vw;
+}
+
+/*------------- error --------------*/
+
+.error {
+    font-size: 8rem;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
