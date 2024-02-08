@@ -65,7 +65,7 @@ const WeatherForm = () => {
                             city={city}
                             weatherData={weatherData}
                         />
-                        <h2 className="Today">{date}</h2>
+                        {/* <h2 className="Today">{date}</h2> */}
                         <div className="weatherInfo">
                             <TempCity
                                 titleCard={'Temperature'}
