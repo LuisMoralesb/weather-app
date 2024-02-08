@@ -17,7 +17,10 @@ html {
 }
 
 body{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
  }
 
 h2 {
@@ -87,6 +90,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /*------------- weather info cards --------------*/
@@ -96,6 +100,7 @@ button:hover {
     justify-content: center;
     gap: 50px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -128,6 +133,7 @@ button:hover {
     gap: 50px;
     /* justify-content: space-evenly; */
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .date {
